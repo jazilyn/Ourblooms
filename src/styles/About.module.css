@@ -1,0 +1,49 @@
+.head{
+    text-align:start;
+}
+.imgContainer{
+    display:flex;
+    gap:20px;
+    grid-area:img;
+}
+.AuthorInformation{
+    display:flex;
+    align-items:start;
+    gap:20px;
+    text-align:start;
+}
+.Journey{
+    text-align:start;
+    max-width:400px;
+}
+.begin{
+    text-align:start;
+    max-width:400px;
+}
+.cap{
+    text-align:start;
+    grid-area:cap;
+}
+.tulip{
+    grid-area:t;
+}
+.container{
+    display:grid;
+    grid-template-areas: 'cap rc rc rc rc rc rc rc rc rc rc rc'
+                         'cap img img img img img img img img img img img'
+                         'cap t t t t t t t t t t t';
+    grid-gap:100px;
+}
+.rightColumnContainer{
+    margin-bottom:50px;
+}
+@media screen and (max-width:799px){
+    .imgContainer{
+        flex-direction:column;
+        align-items:center;
+    }
+    .AuthorInformation{
+        flex-direction:column;
+        align-items:center;
+    }
+}
