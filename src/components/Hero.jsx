@@ -1,6 +1,6 @@
 import image from '../assets/hero/Image.png'; 
-import image1 from '../assets/Hero/Image-1.png';
-import image2 from '../assets/Hero/Image-2.png'; 
+import image1 from '../assets/hero/Image-1.png';
+import image2 from '../assets/hero/Image-2.png'; 
 
 import logo1 from '../assets/Logo/Logo Image.png';
 import logo2 from '../assets/Logo/Logo Image-1.png';

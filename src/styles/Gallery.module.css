@@ -19,7 +19,6 @@
     width:400px;
     max-width:92vw;
 }
-
 .image{
     grid-area:pic1;
 }
@@ -44,7 +43,7 @@
 .image8{
     grid-area:pic8;
 }
-.image1{
+.image9{
     grid-area:pic9;
 }
 @media screen and (min-width:800px)and (max-width:1199px){
@@ -59,6 +58,7 @@
 
 @media screen and (max-width:799px){
     .galleryContainer{
+        display: grid;
         grid-template-areas: 'pic1' 
                              'pic2'
                              'pic3' 

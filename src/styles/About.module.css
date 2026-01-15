@@ -42,6 +42,10 @@
         flex-direction:column;
         align-items:center;
     }
+    .container{ 
+        display:flex;
+        flex-direction:column;
+    }
     .AuthorInformation{
         flex-direction:column;
         align-items:center;

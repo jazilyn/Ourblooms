@@ -23,6 +23,7 @@ function Services(){
                 Services
                 </div> 
 
+                <div className = {styles.section_subheader}>
                 <div className = {styles.mod1}>
             <hr/> 
             <div className = {styles.serviceModule}> 
@@ -86,7 +87,7 @@ function Services(){
             
             </div> 
             </div> 
-            
+            </div> 
             
 
             
