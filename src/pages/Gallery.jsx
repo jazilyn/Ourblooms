@@ -1,4 +1,3 @@
-
 import styles from '../styles/Gallery.module.css'
 import g from '../assets/Gallery/image-8.png'
 import g1 from '../assets/Gallery/Image-1.png'
